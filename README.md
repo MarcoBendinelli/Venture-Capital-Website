@@ -1,46 +1,13 @@
+# Venture Capital website :dollar:
+
 Link to the website: https://venture-capital.vercel.app/
 
-# Venture capital website - WAMM
+This project aimed to design and implement a high quality web-based hypermedia application for both stationary and mobile devices, focusing primarily on conceptual design and then to the practical implementation. It introduced the IDM Model as a framework for defining information architectures, navigation, interaction, and presentation features of complex multi-channel applications, with an emphasis on ensuring a seamless and effective user experience across different contexts.
 
-## Preliminary steps
-As usual, the first things to do are:
-- moving inside the folder with the terminal (or opening the project with VSCode) and then using:
+Within the documentation folder, you will discover the [Design](documentation/Design_Report.pdf) and [Technical](documentation/Technical_Report.pdf) report of the implemented website, as well as a [Usability](documentation/Usability_Report.pdf) report aimed at analyzing the strengths and weaknesses of an external website.
 
-      npm install
+## Home Page
 
-- To run the project you have to use:
-
-      npm run dev
-
-    or
-
-      npm run dev -- -o
-    
-    to automatically open your project in a new tab of your browser.
-
-## Configuration
-To make the project work on GH-Pages there are a few steps to do:
-- install gh-pages
-
-      npm install @nuxtjs/supabase --save-dev
-
-- add the module to the nuxt.config.ts file:
-
-      export default defineNuxtConfig({
-        modules: ['@nuxtjs/supabase'],
-      })
-
-- add SUPABASE_URL and SUPABASE_KEY to the .env (for local use):
-
-      SUPABASE_URL="<Supabase URL>"
-      SUPABASE_KEY="<Supabase API Key>"
-
-## Deployment
-Vercel is connected to your repository. Any time you push something on the main/master branch, Vercel will automatically retrieve the project, build it and deploy it.
-This is why it's better to have two branches:
-- one for deployment
-- one for development
-
-In general, the command to build the "ready to deploy" project is:
-   
-    npm run build
+<p align="center">
+  <img src="https://github.com/MarcoBendinelli/Hypermedia-Applications-VentureCapital/assets/79930488/fed15259-6eef-4eaf-8887-a0fba3b1024c" alt="venture_capital_screen_sm" width="700">
+</p>
